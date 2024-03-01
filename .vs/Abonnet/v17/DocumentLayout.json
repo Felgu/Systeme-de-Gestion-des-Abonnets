@@ -1,0 +1,192 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\izry\\source\\repos\\Abonnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|c:\\users\\izry\\source\\repos\\abonnet\\form5.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|solutionrelative:form5.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|c:\\users\\izry\\source\\repos\\abonnet\\form6.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|solutionrelative:form6.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|c:\\users\\izry\\source\\repos\\abonnet\\form6.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|solutionrelative:form6.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|c:\\users\\izry\\source\\repos\\abonnet\\form5.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|solutionrelative:form5.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|c:\\users\\izry\\source\\repos\\abonnet\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|c:\\users\\izry\\source\\repos\\abonnet\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|solutionrelative:form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|c:\\users\\izry\\source\\repos\\abonnet\\form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|solutionrelative:form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|c:\\users\\izry\\source\\repos\\abonnet\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|c:\\users\\izry\\source\\repos\\abonnet\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|solutionrelative:form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|c:\\users\\izry\\source\\repos\\abonnet\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{5EF448A7-F9AB-4C3D-89B7-D8C808436EC0}|Abonnet.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 367,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form6.vb",
+              "DocumentMoniker": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form6.vb",
+              "RelativeDocumentMoniker": "Form6.vb",
+              "ToolTip": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form6.vb",
+              "RelativeToolTip": "Form6.vb",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-01T13:29:52.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form3.vb",
+              "DocumentMoniker": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form3.vb",
+              "RelativeDocumentMoniker": "Form3.vb",
+              "ToolTip": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form3.vb",
+              "RelativeToolTip": "Form3.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-01T13:27:47.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.vb",
+              "DocumentMoniker": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form2.vb",
+              "RelativeDocumentMoniker": "Form2.vb",
+              "ToolTip": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form2.vb",
+              "RelativeToolTip": "Form2.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-01T11:42:57.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form5.vb",
+              "DocumentMoniker": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form5.vb",
+              "RelativeDocumentMoniker": "Form5.vb",
+              "ToolTip": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form5.vb",
+              "RelativeToolTip": "Form5.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-29T23:47:53.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form5.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form5.vb",
+              "RelativeDocumentMoniker": "Form5.vb",
+              "ToolTip": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form5.vb [Design]",
+              "RelativeToolTip": "Form5.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-29T23:44:44.236Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form4.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form4.vb",
+              "RelativeDocumentMoniker": "Form4.vb",
+              "ToolTip": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form4.vb [Design]",
+              "RelativeToolTip": "Form4.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-29T23:44:21.734Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form6.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form6.vb",
+              "RelativeDocumentMoniker": "Form6.vb",
+              "ToolTip": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form6.vb [Design]",
+              "RelativeToolTip": "Form6.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-01T12:28:44.609Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form1.vb [Design]",
+              "RelativeToolTip": "Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-29T22:34:18.496Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form3.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form3.vb",
+              "RelativeDocumentMoniker": "Form3.vb",
+              "ToolTip": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form3.vb [Design]",
+              "RelativeToolTip": "Form3.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-29T23:43:44.653Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form2.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form2.vb",
+              "RelativeDocumentMoniker": "Form2.vb",
+              "ToolTip": "C:\\Users\\izry\\source\\repos\\Abonnet\\Form2.vb [Design]",
+              "RelativeToolTip": "Form2.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-29T23:43:40.828Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
