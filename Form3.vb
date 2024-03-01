@@ -7,4 +7,9 @@
         Form6.Show()
 
     End Sub
+
+    Private Sub NouveauToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles NouveauToolStripMenuItem1.Click
+        Form7.Show()
+
+    End Sub
 End Class

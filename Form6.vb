@@ -8,6 +8,17 @@
     End Sub
 
     Private Sub btnSupprimer_Click(sender As Object, e As EventArgs) Handles btnSupprimer.Click
+        ClearDocument()
+
+    End Sub
+    Sub ClearDocument()
+        txtbxID.Clear()
+        txtbxNom.Clear()
+        txtbxPrenom.Clear()
+        txtbxTelepnone.Clear()
+        txtbxEmail.Clear()
+        txtbxCompagnie.Clear()
+        txtbxAdresse.Clear()
 
     End Sub
 End Class
