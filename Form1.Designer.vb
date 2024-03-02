@@ -25,16 +25,29 @@ Partial Class Form1
         MenuStrip1 = New MenuStrip()
         mnuService = New ToolStripMenuItem()
         mnuInstallation = New ToolStripMenuItem()
+        mnuModemInstall = New ToolStripMenuItem()
+        mnuServeurInstall = New ToolStripMenuItem()
         mnuReparation = New ToolStripMenuItem()
+        OrdinateurToolStripMenuItem = New ToolStripMenuItem()
+        ModemToolStripMenuItem1 = New ToolStripMenuItem()
+        ServeurToolStripMenuItem = New ToolStripMenuItem()
         mnuProgrammation = New ToolStripMenuItem()
+        mnuWebPages = New ToolStripMenuItem()
         mnuFormation = New ToolStripMenuItem()
+        mnuPersonnel = New ToolStripMenuItem()
         mnuAssistance = New ToolStripMenuItem()
+        TelephoniqueToolStripMenuItem = New ToolStripMenuItem()
+        IchatToolStripMenuItem = New ToolStripMenuItem()
         ToolStripMenuItem3 = New ToolStripSeparator()
         mnuImpression = New ToolStripMenuItem()
+        mnuRapport = New ToolStripMenuItem()
+        mnuStats = New ToolStripMenuItem()
         ServiceToolStripMenuItem = New ToolStripMenuItem()
         mnuMateriel = New ToolStripMenuItem()
         mnuInternet = New ToolStripMenuItem()
         mnuServeur = New ToolStripMenuItem()
+        mnuOrdinateur = New ToolStripMenuItem()
+        mnuModem = New ToolStripMenuItem()
         mnuConsultation = New ToolStripMenuItem()
         mnuPrix = New ToolStripMenuItem()
         mnuModalite = New ToolStripMenuItem()
@@ -55,19 +68,6 @@ Partial Class Form1
         AadministrateurToolStripMenuItem = New ToolStripMenuItem()
         ClientToolStripMenuItem1 = New ToolStripMenuItem()
         l = New ToolStripMenuItem()
-        mnuOrdinateur = New ToolStripMenuItem()
-        mnuModem = New ToolStripMenuItem()
-        mnuModemInstall = New ToolStripMenuItem()
-        mnuServeurInstall = New ToolStripMenuItem()
-        OrdinateurToolStripMenuItem = New ToolStripMenuItem()
-        ModemToolStripMenuItem1 = New ToolStripMenuItem()
-        ServeurToolStripMenuItem = New ToolStripMenuItem()
-        mnuWebPages = New ToolStripMenuItem()
-        TelephoniqueToolStripMenuItem = New ToolStripMenuItem()
-        IchatToolStripMenuItem = New ToolStripMenuItem()
-        mnuRapport = New ToolStripMenuItem()
-        mnuStats = New ToolStripMenuItem()
-        mnuPersonnel = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -98,6 +98,18 @@ Partial Class Form1
         mnuInstallation.Size = New Size(219, 30)
         mnuInstallation.Text = "&Installation"
         ' 
+        ' mnuModemInstall
+        ' 
+        mnuModemInstall.Name = "mnuModemInstall"
+        mnuModemInstall.Size = New Size(151, 30)
+        mnuModemInstall.Text = "Modem"
+        ' 
+        ' mnuServeurInstall
+        ' 
+        mnuServeurInstall.Name = "mnuServeurInstall"
+        mnuServeurInstall.Size = New Size(151, 30)
+        mnuServeurInstall.Text = "Serveur"
+        ' 
         ' mnuReparation
         ' 
         mnuReparation.DropDownItems.AddRange(New ToolStripItem() {OrdinateurToolStripMenuItem, ModemToolStripMenuItem1, ServeurToolStripMenuItem})
@@ -105,6 +117,24 @@ Partial Class Form1
         mnuReparation.Name = "mnuReparation"
         mnuReparation.Size = New Size(219, 30)
         mnuReparation.Text = "&Réparation"
+        ' 
+        ' OrdinateurToolStripMenuItem
+        ' 
+        OrdinateurToolStripMenuItem.Name = "OrdinateurToolStripMenuItem"
+        OrdinateurToolStripMenuItem.Size = New Size(177, 30)
+        OrdinateurToolStripMenuItem.Text = "Ordinateur"
+        ' 
+        ' ModemToolStripMenuItem1
+        ' 
+        ModemToolStripMenuItem1.Name = "ModemToolStripMenuItem1"
+        ModemToolStripMenuItem1.Size = New Size(177, 30)
+        ModemToolStripMenuItem1.Text = "Modem"
+        ' 
+        ' ServeurToolStripMenuItem
+        ' 
+        ServeurToolStripMenuItem.Name = "ServeurToolStripMenuItem"
+        ServeurToolStripMenuItem.Size = New Size(177, 30)
+        ServeurToolStripMenuItem.Text = "Serveur"
         ' 
         ' mnuProgrammation
         ' 
@@ -114,6 +144,12 @@ Partial Class Form1
         mnuProgrammation.Size = New Size(219, 30)
         mnuProgrammation.Text = "&Programmation"
         ' 
+        ' mnuWebPages
+        ' 
+        mnuWebPages.Name = "mnuWebPages"
+        mnuWebPages.Size = New Size(177, 30)
+        mnuWebPages.Text = "&Pages Web"
+        ' 
         ' mnuFormation
         ' 
         mnuFormation.DropDownItems.AddRange(New ToolStripItem() {mnuPersonnel})
@@ -122,6 +158,12 @@ Partial Class Form1
         mnuFormation.Size = New Size(219, 30)
         mnuFormation.Text = "&Formation"
         ' 
+        ' mnuPersonnel
+        ' 
+        mnuPersonnel.Name = "mnuPersonnel"
+        mnuPersonnel.Size = New Size(167, 30)
+        mnuPersonnel.Text = "Personnel"
+        ' 
         ' mnuAssistance
         ' 
         mnuAssistance.DropDownItems.AddRange(New ToolStripItem() {TelephoniqueToolStripMenuItem, IchatToolStripMenuItem})
@@ -129,6 +171,18 @@ Partial Class Form1
         mnuAssistance.Name = "mnuAssistance"
         mnuAssistance.Size = New Size(219, 30)
         mnuAssistance.Text = "Assistance"
+        ' 
+        ' TelephoniqueToolStripMenuItem
+        ' 
+        TelephoniqueToolStripMenuItem.Name = "TelephoniqueToolStripMenuItem"
+        TelephoniqueToolStripMenuItem.Size = New Size(198, 30)
+        TelephoniqueToolStripMenuItem.Text = "&Telephonique"
+        ' 
+        ' IchatToolStripMenuItem
+        ' 
+        IchatToolStripMenuItem.Name = "IchatToolStripMenuItem"
+        IchatToolStripMenuItem.Size = New Size(198, 30)
+        IchatToolStripMenuItem.Text = "&Ichat"
         ' 
         ' ToolStripMenuItem3
         ' 
@@ -141,6 +195,18 @@ Partial Class Form1
         mnuImpression.Name = "mnuImpression"
         mnuImpression.Size = New Size(219, 30)
         mnuImpression.Text = "Impression"
+        ' 
+        ' mnuRapport
+        ' 
+        mnuRapport.Name = "mnuRapport"
+        mnuRapport.Size = New Size(182, 30)
+        mnuRapport.Text = "Rapports"
+        ' 
+        ' mnuStats
+        ' 
+        mnuStats.Name = "mnuStats"
+        mnuStats.Size = New Size(182, 30)
+        mnuStats.Text = "Statistiques"
         ' 
         ' ServiceToolStripMenuItem
         ' 
@@ -166,6 +232,18 @@ Partial Class Form1
         mnuServeur.Size = New Size(177, 30)
         mnuServeur.Text = "Serveur"
         ' 
+        ' mnuOrdinateur
+        ' 
+        mnuOrdinateur.Name = "mnuOrdinateur"
+        mnuOrdinateur.Size = New Size(177, 30)
+        mnuOrdinateur.Text = "&Ordinateur"
+        ' 
+        ' mnuModem
+        ' 
+        mnuModem.Name = "mnuModem"
+        mnuModem.Size = New Size(177, 30)
+        mnuModem.Text = "&Modem"
+        ' 
         ' mnuConsultation
         ' 
         mnuConsultation.DropDownItems.AddRange(New ToolStripItem() {mnuPrix, mnuModalite})
@@ -176,13 +254,13 @@ Partial Class Form1
         ' mnuPrix
         ' 
         mnuPrix.Name = "mnuPrix"
-        mnuPrix.Size = New Size(180, 30)
+        mnuPrix.Size = New Size(169, 30)
         mnuPrix.Text = "Prix"
         ' 
         ' mnuModalite
         ' 
         mnuModalite.Name = "mnuModalite"
-        mnuModalite.Size = New Size(180, 30)
+        mnuModalite.Size = New Size(169, 30)
         mnuModalite.Text = "Modalites"
         ' 
         ' mnuOffres
@@ -289,90 +367,12 @@ Partial Class Form1
         l.Name = "l"
         l.Size = New Size(213, 30)
         ' 
-        ' mnuOrdinateur
-        ' 
-        mnuOrdinateur.Name = "mnuOrdinateur"
-        mnuOrdinateur.Size = New Size(177, 30)
-        mnuOrdinateur.Text = "&Ordinateur"
-        ' 
-        ' mnuModem
-        ' 
-        mnuModem.Name = "mnuModem"
-        mnuModem.Size = New Size(177, 30)
-        mnuModem.Text = "&Modem"
-        ' 
-        ' mnuModemInstall
-        ' 
-        mnuModemInstall.Name = "mnuModemInstall"
-        mnuModemInstall.Size = New Size(180, 30)
-        mnuModemInstall.Text = "Modem"
-        ' 
-        ' mnuServeurInstall
-        ' 
-        mnuServeurInstall.Name = "mnuServeurInstall"
-        mnuServeurInstall.Size = New Size(180, 30)
-        mnuServeurInstall.Text = "Serveur"
-        ' 
-        ' OrdinateurToolStripMenuItem
-        ' 
-        OrdinateurToolStripMenuItem.Name = "OrdinateurToolStripMenuItem"
-        OrdinateurToolStripMenuItem.Size = New Size(177, 30)
-        OrdinateurToolStripMenuItem.Text = "Ordinateur"
-        ' 
-        ' ModemToolStripMenuItem1
-        ' 
-        ModemToolStripMenuItem1.Name = "ModemToolStripMenuItem1"
-        ModemToolStripMenuItem1.Size = New Size(177, 30)
-        ModemToolStripMenuItem1.Text = "Modem"
-        ' 
-        ' ServeurToolStripMenuItem
-        ' 
-        ServeurToolStripMenuItem.Name = "ServeurToolStripMenuItem"
-        ServeurToolStripMenuItem.Size = New Size(177, 30)
-        ServeurToolStripMenuItem.Text = "Serveur"
-        ' 
-        ' mnuWebPages
-        ' 
-        mnuWebPages.Name = "mnuWebPages"
-        mnuWebPages.Size = New Size(180, 30)
-        mnuWebPages.Text = "&Pages Web"
-        ' 
-        ' TelephoniqueToolStripMenuItem
-        ' 
-        TelephoniqueToolStripMenuItem.Name = "TelephoniqueToolStripMenuItem"
-        TelephoniqueToolStripMenuItem.Size = New Size(198, 30)
-        TelephoniqueToolStripMenuItem.Text = "&Telephonique"
-        ' 
-        ' IchatToolStripMenuItem
-        ' 
-        IchatToolStripMenuItem.Name = "IchatToolStripMenuItem"
-        IchatToolStripMenuItem.Size = New Size(198, 30)
-        IchatToolStripMenuItem.Text = "&Ichat"
-        ' 
-        ' mnuRapport
-        ' 
-        mnuRapport.Name = "mnuRapport"
-        mnuRapport.Size = New Size(182, 30)
-        mnuRapport.Text = "Rapports"
-        ' 
-        ' mnuStats
-        ' 
-        mnuStats.Name = "mnuStats"
-        mnuStats.Size = New Size(182, 30)
-        mnuStats.Text = "Statistiques"
-        ' 
-        ' mnuPersonnel
-        ' 
-        mnuPersonnel.Name = "mnuPersonnel"
-        mnuPersonnel.Size = New Size(180, 30)
-        mnuPersonnel.Text = "Personnel"
-        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ControlDarkDark
-        ClientSize = New Size(692, 750)
+        ClientSize = New Size(692, 597)
         Controls.Add(MenuStrip1)
         Font = New Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
         ForeColor = Color.DarkOrchid
