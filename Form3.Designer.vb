@@ -36,6 +36,9 @@ Partial Class Form3
         AchatToolStripMenuItem = New ToolStripMenuItem()
         ImpotToolStripMenuItem = New ToolStripMenuItem()
         RapportToolStripMenuItem = New ToolStripMenuItem()
+        ClientToolStripMenuItem = New ToolStripMenuItem()
+        EntrepriseToolStripMenuItem = New ToolStripMenuItem()
+        AnnuelToolStripMenuItem = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -110,26 +113,45 @@ Partial Class Form3
         ' LocationToolStripMenuItem
         ' 
         LocationToolStripMenuItem.Name = "LocationToolStripMenuItem"
-        LocationToolStripMenuItem.Size = New Size(168, 34)
+        LocationToolStripMenuItem.Size = New Size(180, 34)
         LocationToolStripMenuItem.Text = "Location"
         ' 
         ' AchatToolStripMenuItem
         ' 
         AchatToolStripMenuItem.Name = "AchatToolStripMenuItem"
-        AchatToolStripMenuItem.Size = New Size(168, 34)
+        AchatToolStripMenuItem.Size = New Size(180, 34)
         AchatToolStripMenuItem.Text = "Achat"
         ' 
         ' ImpotToolStripMenuItem
         ' 
         ImpotToolStripMenuItem.Name = "ImpotToolStripMenuItem"
-        ImpotToolStripMenuItem.Size = New Size(168, 34)
+        ImpotToolStripMenuItem.Size = New Size(180, 34)
         ImpotToolStripMenuItem.Text = "Impot"
         ' 
         ' RapportToolStripMenuItem
         ' 
+        RapportToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {ClientToolStripMenuItem, EntrepriseToolStripMenuItem, AnnuelToolStripMenuItem})
         RapportToolStripMenuItem.Name = "RapportToolStripMenuItem"
         RapportToolStripMenuItem.Size = New Size(105, 34)
         RapportToolStripMenuItem.Text = "&Rapport"
+        ' 
+        ' ClientToolStripMenuItem
+        ' 
+        ClientToolStripMenuItem.Name = "ClientToolStripMenuItem"
+        ClientToolStripMenuItem.Size = New Size(180, 34)
+        ClientToolStripMenuItem.Text = "Client"
+        ' 
+        ' EntrepriseToolStripMenuItem
+        ' 
+        EntrepriseToolStripMenuItem.Name = "EntrepriseToolStripMenuItem"
+        EntrepriseToolStripMenuItem.Size = New Size(182, 34)
+        EntrepriseToolStripMenuItem.Text = "Entreprise"
+        ' 
+        ' AnnuelToolStripMenuItem
+        ' 
+        AnnuelToolStripMenuItem.Name = "AnnuelToolStripMenuItem"
+        AnnuelToolStripMenuItem.Size = New Size(182, 34)
+        AnnuelToolStripMenuItem.Text = "Annuel"
         ' 
         ' Form3
         ' 
@@ -160,4 +182,7 @@ Partial Class Form3
     Friend WithEvents LocationToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AchatToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ImpotToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ClientToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EntrepriseToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AnnuelToolStripMenuItem As ToolStripMenuItem
 End Class

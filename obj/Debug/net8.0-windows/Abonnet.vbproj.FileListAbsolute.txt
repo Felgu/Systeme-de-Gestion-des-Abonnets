@@ -20,3 +20,5 @@ C:\Users\izry\source\repos\Abonnet\obj\Debug\net8.0-windows\Abonnet.Form3.resour
 C:\Users\izry\source\repos\Abonnet\obj\Debug\net8.0-windows\Abonnet.Form4.resources
 C:\Users\izry\source\repos\Abonnet\obj\Debug\net8.0-windows\Abonnet.Form5.resources
 C:\Users\izry\source\repos\Abonnet\obj\Debug\net8.0-windows\Abonnet.Form6.resources
+C:\Users\izry\source\repos\Abonnet\obj\Debug\net8.0-windows\Abonnet.Form7.resources
+C:\Users\izry\source\repos\Abonnet\obj\Debug\net8.0-windows\Abonnet.sourcelink.json

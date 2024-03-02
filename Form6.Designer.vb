@@ -41,191 +41,206 @@ Partial Class Form6
         lblCompagnieNom = New Label()
         txtbxEmail = New TextBox()
         txtbxCompagnie = New TextBox()
+        btnExit = New Button()
         SuspendLayout()
         ' 
         ' lblNom
         ' 
         lblNom.AutoSize = True
-        lblNom.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic)
+        lblNom.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         lblNom.Location = New Point(37, 116)
         lblNom.Name = "lblNom"
-        lblNom.Size = New Size(45, 21)
+        lblNom.Size = New Size(59, 25)
         lblNom.TabIndex = 1
         lblNom.Text = "Nom"
         ' 
         ' lblPrenom
         ' 
         lblPrenom.AutoSize = True
-        lblPrenom.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic)
+        lblPrenom.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         lblPrenom.Location = New Point(37, 168)
         lblPrenom.Name = "lblPrenom"
-        lblPrenom.Size = New Size(66, 21)
+        lblPrenom.Size = New Size(92, 25)
         lblPrenom.TabIndex = 2
         lblPrenom.Text = "Prenom"
         ' 
         ' lblAdresse
         ' 
         lblAdresse.AutoSize = True
-        lblAdresse.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic)
+        lblAdresse.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         lblAdresse.Location = New Point(37, 348)
         lblAdresse.Name = "lblAdresse"
-        lblAdresse.Size = New Size(66, 21)
+        lblAdresse.Size = New Size(98, 25)
         lblAdresse.TabIndex = 4
         lblAdresse.Text = "Adresse"
         ' 
         ' lblTelephone
         ' 
         lblTelephone.AutoSize = True
-        lblTelephone.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic)
+        lblTelephone.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         lblTelephone.Location = New Point(37, 216)
         lblTelephone.Name = "lblTelephone"
-        lblTelephone.Size = New Size(84, 21)
+        lblTelephone.Size = New Size(123, 25)
         lblTelephone.TabIndex = 3
         lblTelephone.Text = "Téléphone"
         ' 
         ' txtbxNom
         ' 
-        txtbxNom.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic)
+        txtbxNom.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         txtbxNom.Location = New Point(227, 116)
         txtbxNom.Name = "txtbxNom"
-        txtbxNom.Size = New Size(163, 29)
+        txtbxNom.Size = New Size(163, 31)
         txtbxNom.TabIndex = 8
         txtbxNom.TextAlign = HorizontalAlignment.Center
         ' 
         ' txtbxPrenom
         ' 
-        txtbxPrenom.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic)
+        txtbxPrenom.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         txtbxPrenom.Location = New Point(227, 168)
         txtbxPrenom.Name = "txtbxPrenom"
-        txtbxPrenom.Size = New Size(163, 29)
+        txtbxPrenom.Size = New Size(163, 31)
         txtbxPrenom.TabIndex = 9
         txtbxPrenom.TextAlign = HorizontalAlignment.Center
         ' 
         ' txtbxTelepnone
         ' 
-        txtbxTelepnone.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic)
+        txtbxTelepnone.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         txtbxTelepnone.Location = New Point(227, 216)
         txtbxTelepnone.Name = "txtbxTelepnone"
-        txtbxTelepnone.Size = New Size(163, 29)
+        txtbxTelepnone.Size = New Size(163, 31)
         txtbxTelepnone.TabIndex = 10
         txtbxTelepnone.TextAlign = HorizontalAlignment.Center
         ' 
         ' txtbxAdresse
         ' 
-        txtbxAdresse.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic)
-        txtbxAdresse.Location = New Point(227, 351)
+        txtbxAdresse.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
+        txtbxAdresse.Location = New Point(228, 348)
         txtbxAdresse.Multiline = True
         txtbxAdresse.Name = "txtbxAdresse"
         txtbxAdresse.Size = New Size(163, 79)
-        txtbxAdresse.TabIndex = 11
+        txtbxAdresse.TabIndex = 17
         txtbxAdresse.TextAlign = HorizontalAlignment.Center
         ' 
         ' txtbxID
         ' 
+        txtbxID.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         txtbxID.Location = New Point(227, 75)
         txtbxID.Name = "txtbxID"
-        txtbxID.Size = New Size(164, 23)
+        txtbxID.Size = New Size(164, 31)
         txtbxID.TabIndex = 7
         ' 
         ' lblID
         ' 
         lblID.AutoSize = True
-        lblID.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        lblID.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         lblID.Location = New Point(37, 77)
         lblID.Name = "lblID"
-        lblID.Size = New Size(86, 21)
+        lblID.Size = New Size(116, 25)
         lblID.TabIndex = 0
         lblID.Text = "Identifiant"
         ' 
         ' lblNewClient
         ' 
         lblNewClient.AutoSize = True
-        lblNewClient.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        lblNewClient.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         lblNewClient.Location = New Point(144, 22)
         lblNewClient.Name = "lblNewClient"
-        lblNewClient.Size = New Size(118, 21)
+        lblNewClient.Size = New Size(169, 25)
         lblNewClient.TabIndex = 10
         lblNewClient.Text = "Nouveau client"
         ' 
         ' btnSave
         ' 
-        btnSave.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic)
+        btnSave.Font = New Font("Californian FB", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         btnSave.Location = New Point(119, 462)
         btnSave.Name = "btnSave"
-        btnSave.Size = New Size(105, 34)
+        btnSave.Size = New Size(79, 34)
         btnSave.TabIndex = 5
         btnSave.Text = "Save"
         btnSave.UseVisualStyleBackColor = True
         ' 
         ' btnSupprimer
         ' 
-        btnSupprimer.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic)
-        btnSupprimer.Location = New Point(251, 462)
+        btnSupprimer.Font = New Font("Californian FB", 15.75F, FontStyle.Bold Or FontStyle.Italic)
+        btnSupprimer.Location = New Point(323, 462)
         btnSupprimer.Name = "btnSupprimer"
-        btnSupprimer.Size = New Size(105, 34)
+        btnSupprimer.Size = New Size(67, 34)
         btnSupprimer.TabIndex = 6
-        btnSupprimer.Text = "Supprimer"
+        btnSupprimer.Text = "Clear"
         btnSupprimer.UseVisualStyleBackColor = True
         ' 
         ' lblErrurNC
         ' 
         lblErrurNC.AutoSize = True
-        lblErrurNC.Location = New Point(114, 519)
+        lblErrurNC.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold Or FontStyle.Italic)
+        lblErrurNC.Location = New Point(37, 522)
         lblErrurNC.Name = "lblErrurNC"
-        lblErrurNC.Size = New Size(10, 15)
+        lblErrurNC.Size = New Size(18, 30)
         lblErrurNC.TabIndex = 12
         lblErrurNC.Text = "."
         ' 
         ' lblMsgNC
         ' 
         lblMsgNC.AutoSize = True
-        lblMsgNC.Location = New Point(114, 551)
+        lblMsgNC.Font = New Font("Segoe UI Semibold", 15.75F, FontStyle.Bold Or FontStyle.Italic)
+        lblMsgNC.Location = New Point(37, 554)
         lblMsgNC.Name = "lblMsgNC"
-        lblMsgNC.Size = New Size(10, 15)
+        lblMsgNC.Size = New Size(18, 30)
         lblMsgNC.TabIndex = 13
         lblMsgNC.Text = "."
         ' 
         ' lblEmail
         ' 
         lblEmail.AutoSize = True
-        lblEmail.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
+        lblEmail.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         lblEmail.Location = New Point(37, 267)
         lblEmail.Name = "lblEmail"
-        lblEmail.Size = New Size(114, 21)
+        lblEmail.Size = New Size(173, 25)
         lblEmail.TabIndex = 14
         lblEmail.Text = "Business Email"
         ' 
         ' lblCompagnieNom
         ' 
         lblCompagnieNom.AutoSize = True
-        lblCompagnieNom.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold)
+        lblCompagnieNom.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         lblCompagnieNom.Location = New Point(37, 304)
         lblCompagnieNom.Name = "lblCompagnieNom"
-        lblCompagnieNom.Size = New Size(134, 21)
+        lblCompagnieNom.Size = New Size(184, 25)
         lblCompagnieNom.TabIndex = 15
         lblCompagnieNom.Text = "Nom Compagnie"
         ' 
         ' txtbxEmail
         ' 
-        txtbxEmail.Font = New Font("Segoe UI", 12F)
+        txtbxEmail.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         txtbxEmail.Location = New Point(227, 267)
         txtbxEmail.Name = "txtbxEmail"
-        txtbxEmail.Size = New Size(164, 29)
-        txtbxEmail.TabIndex = 16
+        txtbxEmail.Size = New Size(164, 31)
+        txtbxEmail.TabIndex = 11
         ' 
         ' txtbxCompagnie
         ' 
-        txtbxCompagnie.Font = New Font("Segoe UI", 12F)
+        txtbxCompagnie.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
         txtbxCompagnie.Location = New Point(227, 306)
         txtbxCompagnie.Name = "txtbxCompagnie"
-        txtbxCompagnie.Size = New Size(163, 29)
-        txtbxCompagnie.TabIndex = 17
+        txtbxCompagnie.Size = New Size(163, 31)
+        txtbxCompagnie.TabIndex = 16
+        ' 
+        ' btnExit
+        ' 
+        btnExit.Font = New Font("Californian FB", 15.75F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        btnExit.Location = New Point(227, 462)
+        btnExit.Name = "btnExit"
+        btnExit.Size = New Size(75, 34)
+        btnExit.TabIndex = 18
+        btnExit.Text = "Exit"
+        btnExit.UseVisualStyleBackColor = True
         ' 
         ' Form6
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(583, 639)
+        Controls.Add(btnExit)
         Controls.Add(txtbxCompagnie)
         Controls.Add(txtbxEmail)
         Controls.Add(lblCompagnieNom)
@@ -270,4 +285,5 @@ Partial Class Form6
     Friend WithEvents lblCompagnieNom As Label
     Friend WithEvents txtbxEmail As TextBox
     Friend WithEvents txtbxCompagnie As TextBox
+    Friend WithEvents btnExit As Button
 End Class

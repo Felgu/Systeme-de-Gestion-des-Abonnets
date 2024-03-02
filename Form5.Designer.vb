@@ -103,7 +103,7 @@ Partial Class Form5
         ' 
         lblMsgErr.AutoSize = True
         lblMsgErr.Font = New Font("Segoe UI", 14.25F, FontStyle.Italic)
-        lblMsgErr.Location = New Point(149, 316)
+        lblMsgErr.Location = New Point(26, 327)
         lblMsgErr.Name = "lblMsgErr"
         lblMsgErr.Size = New Size(16, 25)
         lblMsgErr.TabIndex = 7
@@ -114,7 +114,7 @@ Partial Class Form5
         ' 
         lblRappel.AutoSize = True
         lblRappel.Font = New Font("Segoe UI", 14.25F, FontStyle.Italic)
-        lblRappel.Location = New Point(149, 351)
+        lblRappel.Location = New Point(26, 362)
         lblRappel.Name = "lblRappel"
         lblRappel.Size = New Size(16, 25)
         lblRappel.TabIndex = 8

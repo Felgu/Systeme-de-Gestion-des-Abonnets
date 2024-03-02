@@ -37,10 +37,10 @@ Partial Class Form2
         ' 
         lblUsername.AutoSize = True
         lblUsername.BackColor = Color.DarkGray
-        lblUsername.Font = New Font("Californian FB", 15.75F, FontStyle.Bold Or FontStyle.Italic)
+        lblUsername.Font = New Font("Californian FB", 18F, FontStyle.Bold Or FontStyle.Italic)
         lblUsername.Location = New Point(73, 135)
         lblUsername.Name = "lblUsername"
-        lblUsername.Size = New Size(99, 24)
+        lblUsername.Size = New Size(110, 27)
         lblUsername.TabIndex = 0
         lblUsername.Text = "Username"
         ' 
@@ -48,10 +48,10 @@ Partial Class Form2
         ' 
         lblPassword.AutoSize = True
         lblPassword.BackColor = Color.DarkGray
-        lblPassword.Font = New Font("Californian FB", 15.75F, FontStyle.Bold Or FontStyle.Italic)
+        lblPassword.Font = New Font("Californian FB", 18F, FontStyle.Bold Or FontStyle.Italic)
         lblPassword.Location = New Point(76, 209)
         lblPassword.Name = "lblPassword"
-        lblPassword.Size = New Size(96, 24)
+        lblPassword.Size = New Size(105, 27)
         lblPassword.TabIndex = 1
         lblPassword.Text = "Password"
         ' 
@@ -80,18 +80,20 @@ Partial Class Form2
         ' txtbxUsername
         ' 
         txtbxUsername.BackColor = Color.AliceBlue
+        txtbxUsername.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic)
         txtbxUsername.Location = New Point(276, 135)
         txtbxUsername.Name = "txtbxUsername"
-        txtbxUsername.Size = New Size(235, 23)
+        txtbxUsername.Size = New Size(235, 29)
         txtbxUsername.TabIndex = 4
         ' 
         ' txtbxPassword
         ' 
         txtbxPassword.BackColor = Color.AliceBlue
         txtbxPassword.BorderStyle = BorderStyle.FixedSingle
+        txtbxPassword.Font = New Font("Segoe UI Semibold", 12F, FontStyle.Bold Or FontStyle.Italic)
         txtbxPassword.Location = New Point(276, 209)
         txtbxPassword.Name = "txtbxPassword"
-        txtbxPassword.Size = New Size(235, 23)
+        txtbxPassword.Size = New Size(235, 29)
         txtbxPassword.TabIndex = 5
         ' 
         ' lblAdmin
@@ -107,10 +109,10 @@ Partial Class Form2
         ' lblErrAdmin
         ' 
         lblErrAdmin.AutoSize = True
-        lblErrAdmin.Font = New Font("Segoe UI", 14.25F, FontStyle.Italic)
-        lblErrAdmin.Location = New Point(284, 364)
+        lblErrAdmin.Font = New Font("Segoe UI Semibold", 18F, FontStyle.Bold Or FontStyle.Italic)
+        lblErrAdmin.Location = New Point(73, 354)
         lblErrAdmin.Name = "lblErrAdmin"
-        lblErrAdmin.Size = New Size(16, 25)
+        lblErrAdmin.Size = New Size(20, 32)
         lblErrAdmin.TabIndex = 7
         lblErrAdmin.Text = "."
         lblErrAdmin.Visible = False
@@ -118,10 +120,10 @@ Partial Class Form2
         ' lblAvertAdmin
         ' 
         lblAvertAdmin.AutoSize = True
-        lblAvertAdmin.Font = New Font("Segoe UI", 14.25F, FontStyle.Italic)
-        lblAvertAdmin.Location = New Point(280, 394)
+        lblAvertAdmin.Font = New Font("Segoe UI Semibold", 18F, FontStyle.Bold Or FontStyle.Italic)
+        lblAvertAdmin.Location = New Point(73, 386)
         lblAvertAdmin.Name = "lblAvertAdmin"
-        lblAvertAdmin.Size = New Size(16, 25)
+        lblAvertAdmin.Size = New Size(20, 32)
         lblAvertAdmin.TabIndex = 8
         lblAvertAdmin.Text = "."
         ' 

@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Abonnet"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c206fcb78d2abf7df050a911da986498f180beb7"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Abonnet"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Abonnet"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

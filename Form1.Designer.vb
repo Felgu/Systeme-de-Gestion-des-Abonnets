@@ -29,17 +29,20 @@ Partial Class Form1
         mnuProgrammation = New ToolStripMenuItem()
         mnuFormation = New ToolStripMenuItem()
         mnuAssistance = New ToolStripMenuItem()
+        ToolStripMenuItem3 = New ToolStripSeparator()
         mnuImpression = New ToolStripMenuItem()
+        ServiceToolStripMenuItem = New ToolStripMenuItem()
         mnuMateriel = New ToolStripMenuItem()
         mnuInternet = New ToolStripMenuItem()
         mnuServeur = New ToolStripMenuItem()
-        mnuOffres = New ToolStripMenuItem()
-        LiquidationToolStripMenuItem = New ToolStripMenuItem()
-        FinDanneeToolStripMenuItem = New ToolStripMenuItem()
-        NouveauClientToolStripMenuItem = New ToolStripMenuItem()
         mnuConsultation = New ToolStripMenuItem()
-        PrixToolStripMenuItem = New ToolStripMenuItem()
-        ModalitesToolStripMenuItem = New ToolStripMenuItem()
+        mnuPrix = New ToolStripMenuItem()
+        mnuModalite = New ToolStripMenuItem()
+        mnuOffres = New ToolStripMenuItem()
+        mnuLiquidation = New ToolStripMenuItem()
+        mnuFinAnnee = New ToolStripMenuItem()
+        mnuNewClient = New ToolStripMenuItem()
+        mnuEntreprise = New ToolStripMenuItem()
         mnuAide = New ToolStripMenuItem()
         LoginToolStripMenuItem = New ToolStripMenuItem()
         AdministrateurToolStripMenuItem = New ToolStripMenuItem()
@@ -48,11 +51,23 @@ Partial Class Form1
         MToolStripMenuItem = New ToolStripMenuItem()
         ToolStripMenuItem2 = New ToolStripMenuItem()
         ToolStripMenuItem1 = New ToolStripMenuItem()
-        LoginToolStripMenuItem1 = New ToolStripMenuItem()
+        mnuLogin = New ToolStripMenuItem()
         AadministrateurToolStripMenuItem = New ToolStripMenuItem()
         ClientToolStripMenuItem1 = New ToolStripMenuItem()
-        ToolStripMenuItem3 = New ToolStripSeparator()
-        EntrToolStripMenuItem = New ToolStripMenuItem()
+        l = New ToolStripMenuItem()
+        mnuOrdinateur = New ToolStripMenuItem()
+        mnuModem = New ToolStripMenuItem()
+        mnuModemInstall = New ToolStripMenuItem()
+        mnuServeurInstall = New ToolStripMenuItem()
+        OrdinateurToolStripMenuItem = New ToolStripMenuItem()
+        ModemToolStripMenuItem1 = New ToolStripMenuItem()
+        ServeurToolStripMenuItem = New ToolStripMenuItem()
+        mnuWebPages = New ToolStripMenuItem()
+        TelephoniqueToolStripMenuItem = New ToolStripMenuItem()
+        IchatToolStripMenuItem = New ToolStripMenuItem()
+        mnuRapport = New ToolStripMenuItem()
+        mnuStats = New ToolStripMenuItem()
+        mnuPersonnel = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -60,23 +75,24 @@ Partial Class Form1
         ' 
         MenuStrip1.BackColor = SystemColors.ControlDark
         MenuStrip1.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        MenuStrip1.Items.AddRange(New ToolStripItem() {mnuService, mnuMateriel, mnuConsultation, mnuOffres, mnuAide, LoginToolStripMenuItem, KToolStripMenuItem, MToolStripMenuItem, ToolStripMenuItem2, ToolStripMenuItem1, LoginToolStripMenuItem1})
+        MenuStrip1.Items.AddRange(New ToolStripItem() {mnuService, mnuMateriel, mnuConsultation, mnuOffres, mnuAide, LoginToolStripMenuItem, KToolStripMenuItem, MToolStripMenuItem, ToolStripMenuItem2, ToolStripMenuItem1, mnuLogin})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
         MenuStrip1.Padding = New Padding(9, 3, 0, 3)
-        MenuStrip1.Size = New Size(1143, 35)
+        MenuStrip1.Size = New Size(692, 35)
         MenuStrip1.TabIndex = 0
         MenuStrip1.Text = "MenuStrip1"
         ' 
         ' mnuService
         ' 
-        mnuService.DropDownItems.AddRange(New ToolStripItem() {mnuInstallation, mnuReparation, mnuProgrammation, mnuFormation, mnuAssistance, ToolStripMenuItem3, mnuImpression})
+        mnuService.DropDownItems.AddRange(New ToolStripItem() {mnuInstallation, mnuReparation, mnuProgrammation, mnuFormation, mnuAssistance, ToolStripMenuItem3, mnuImpression, ServiceToolStripMenuItem})
         mnuService.Name = "mnuService"
         mnuService.Size = New Size(86, 29)
         mnuService.Text = "&Service"
         ' 
         ' mnuInstallation
         ' 
+        mnuInstallation.DropDownItems.AddRange(New ToolStripItem() {mnuModemInstall, mnuServeurInstall})
         mnuInstallation.ForeColor = Color.DarkBlue
         mnuInstallation.Name = "mnuInstallation"
         mnuInstallation.Size = New Size(219, 30)
@@ -84,6 +100,7 @@ Partial Class Form1
         ' 
         ' mnuReparation
         ' 
+        mnuReparation.DropDownItems.AddRange(New ToolStripItem() {OrdinateurToolStripMenuItem, ModemToolStripMenuItem1, ServeurToolStripMenuItem})
         mnuReparation.ForeColor = Color.DarkBlue
         mnuReparation.Name = "mnuReparation"
         mnuReparation.Size = New Size(219, 30)
@@ -91,6 +108,7 @@ Partial Class Form1
         ' 
         ' mnuProgrammation
         ' 
+        mnuProgrammation.DropDownItems.AddRange(New ToolStripItem() {mnuWebPages})
         mnuProgrammation.ForeColor = Color.DarkBlue
         mnuProgrammation.Name = "mnuProgrammation"
         mnuProgrammation.Size = New Size(219, 30)
@@ -98,27 +116,40 @@ Partial Class Form1
         ' 
         ' mnuFormation
         ' 
+        mnuFormation.DropDownItems.AddRange(New ToolStripItem() {mnuPersonnel})
         mnuFormation.ForeColor = Color.DarkBlue
         mnuFormation.Name = "mnuFormation"
         mnuFormation.Size = New Size(219, 30)
-        mnuFormation.Text = "&Fromation"
+        mnuFormation.Text = "&Formation"
         ' 
         ' mnuAssistance
         ' 
+        mnuAssistance.DropDownItems.AddRange(New ToolStripItem() {TelephoniqueToolStripMenuItem, IchatToolStripMenuItem})
         mnuAssistance.ForeColor = Color.DarkSlateBlue
         mnuAssistance.Name = "mnuAssistance"
         mnuAssistance.Size = New Size(219, 30)
         mnuAssistance.Text = "Assistance"
         ' 
+        ' ToolStripMenuItem3
+        ' 
+        ToolStripMenuItem3.Name = "ToolStripMenuItem3"
+        ToolStripMenuItem3.Size = New Size(216, 6)
+        ' 
         ' mnuImpression
         ' 
+        mnuImpression.DropDownItems.AddRange(New ToolStripItem() {mnuRapport, mnuStats})
         mnuImpression.Name = "mnuImpression"
         mnuImpression.Size = New Size(219, 30)
         mnuImpression.Text = "Impression"
         ' 
+        ' ServiceToolStripMenuItem
+        ' 
+        ServiceToolStripMenuItem.Name = "ServiceToolStripMenuItem"
+        ServiceToolStripMenuItem.Size = New Size(219, 30)
+        ' 
         ' mnuMateriel
         ' 
-        mnuMateriel.DropDownItems.AddRange(New ToolStripItem() {mnuInternet, mnuServeur})
+        mnuMateriel.DropDownItems.AddRange(New ToolStripItem() {mnuInternet, mnuServeur, mnuOrdinateur, mnuModem})
         mnuMateriel.Name = "mnuMateriel"
         mnuMateriel.Size = New Size(104, 29)
         mnuMateriel.Text = "&Materiels"
@@ -126,58 +157,64 @@ Partial Class Form1
         ' mnuInternet
         ' 
         mnuInternet.Name = "mnuInternet"
-        mnuInternet.Size = New Size(180, 30)
+        mnuInternet.Size = New Size(177, 30)
         mnuInternet.Text = "Internet"
         ' 
         ' mnuServeur
         ' 
         mnuServeur.Name = "mnuServeur"
-        mnuServeur.Size = New Size(180, 30)
+        mnuServeur.Size = New Size(177, 30)
         mnuServeur.Text = "Serveur"
-        ' 
-        ' mnuOffres
-        ' 
-        mnuOffres.DropDownItems.AddRange(New ToolStripItem() {LiquidationToolStripMenuItem, FinDanneeToolStripMenuItem, NouveauClientToolStripMenuItem, EntrToolStripMenuItem})
-        mnuOffres.Name = "mnuOffres"
-        mnuOffres.Size = New Size(77, 29)
-        mnuOffres.Text = "&Offres"
-        ' 
-        ' LiquidationToolStripMenuItem
-        ' 
-        LiquidationToolStripMenuItem.Name = "LiquidationToolStripMenuItem"
-        LiquidationToolStripMenuItem.Size = New Size(217, 30)
-        LiquidationToolStripMenuItem.Text = "Liquidation"
-        ' 
-        ' FinDanneeToolStripMenuItem
-        ' 
-        FinDanneeToolStripMenuItem.Name = "FinDanneeToolStripMenuItem"
-        FinDanneeToolStripMenuItem.Size = New Size(217, 30)
-        FinDanneeToolStripMenuItem.Text = "Fin d'annee"
-        ' 
-        ' NouveauClientToolStripMenuItem
-        ' 
-        NouveauClientToolStripMenuItem.Name = "NouveauClientToolStripMenuItem"
-        NouveauClientToolStripMenuItem.Size = New Size(217, 30)
-        NouveauClientToolStripMenuItem.Text = "Nouveau Client"
         ' 
         ' mnuConsultation
         ' 
-        mnuConsultation.DropDownItems.AddRange(New ToolStripItem() {PrixToolStripMenuItem, ModalitesToolStripMenuItem})
+        mnuConsultation.DropDownItems.AddRange(New ToolStripItem() {mnuPrix, mnuModalite})
         mnuConsultation.Name = "mnuConsultation"
         mnuConsultation.Size = New Size(141, 29)
         mnuConsultation.Text = "&Consultations"
         ' 
-        ' PrixToolStripMenuItem
+        ' mnuPrix
         ' 
-        PrixToolStripMenuItem.Name = "PrixToolStripMenuItem"
-        PrixToolStripMenuItem.Size = New Size(180, 30)
-        PrixToolStripMenuItem.Text = "Prix"
+        mnuPrix.Name = "mnuPrix"
+        mnuPrix.Size = New Size(180, 30)
+        mnuPrix.Text = "Prix"
         ' 
-        ' ModalitesToolStripMenuItem
+        ' mnuModalite
         ' 
-        ModalitesToolStripMenuItem.Name = "ModalitesToolStripMenuItem"
-        ModalitesToolStripMenuItem.Size = New Size(180, 30)
-        ModalitesToolStripMenuItem.Text = "Modalites"
+        mnuModalite.Name = "mnuModalite"
+        mnuModalite.Size = New Size(180, 30)
+        mnuModalite.Text = "Modalites"
+        ' 
+        ' mnuOffres
+        ' 
+        mnuOffres.DropDownItems.AddRange(New ToolStripItem() {mnuLiquidation, mnuFinAnnee, mnuNewClient, mnuEntreprise})
+        mnuOffres.Name = "mnuOffres"
+        mnuOffres.Size = New Size(77, 29)
+        mnuOffres.Text = "&Offres"
+        ' 
+        ' mnuLiquidation
+        ' 
+        mnuLiquidation.Name = "mnuLiquidation"
+        mnuLiquidation.Size = New Size(217, 30)
+        mnuLiquidation.Text = "Liquidation"
+        ' 
+        ' mnuFinAnnee
+        ' 
+        mnuFinAnnee.Name = "mnuFinAnnee"
+        mnuFinAnnee.Size = New Size(217, 30)
+        mnuFinAnnee.Text = "Fin d'annee"
+        ' 
+        ' mnuNewClient
+        ' 
+        mnuNewClient.Name = "mnuNewClient"
+        mnuNewClient.Size = New Size(217, 30)
+        mnuNewClient.Text = "Nouveau Client"
+        ' 
+        ' mnuEntreprise
+        ' 
+        mnuEntreprise.Name = "mnuEntreprise"
+        mnuEntreprise.Size = New Size(217, 30)
+        mnuEntreprise.Text = "&Entreprise"
         ' 
         ' mnuAide
         ' 
@@ -227,12 +264,13 @@ Partial Class Form1
         ToolStripMenuItem1.Size = New Size(29, 29)
         ToolStripMenuItem1.Text = "."
         ' 
-        ' LoginToolStripMenuItem1
+        ' mnuLogin
         ' 
-        LoginToolStripMenuItem1.DropDownItems.AddRange(New ToolStripItem() {AadministrateurToolStripMenuItem, ClientToolStripMenuItem1})
-        LoginToolStripMenuItem1.Name = "LoginToolStripMenuItem1"
-        LoginToolStripMenuItem1.Size = New Size(71, 29)
-        LoginToolStripMenuItem1.Text = "&Login"
+        mnuLogin.DropDownItems.AddRange(New ToolStripItem() {AadministrateurToolStripMenuItem, ClientToolStripMenuItem1, l})
+        mnuLogin.ForeColor = Color.DarkSlateBlue
+        mnuLogin.Name = "mnuLogin"
+        mnuLogin.Size = New Size(71, 29)
+        mnuLogin.Text = "&Login"
         ' 
         ' AadministrateurToolStripMenuItem
         ' 
@@ -246,24 +284,98 @@ Partial Class Form1
         ClientToolStripMenuItem1.Size = New Size(213, 30)
         ClientToolStripMenuItem1.Text = "Client"
         ' 
-        ' ToolStripMenuItem3
+        ' l
         ' 
-        ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        ToolStripMenuItem3.Size = New Size(216, 6)
+        l.Name = "l"
+        l.Size = New Size(213, 30)
         ' 
-        ' EntrToolStripMenuItem
+        ' mnuOrdinateur
         ' 
-        EntrToolStripMenuItem.Name = "EntrToolStripMenuItem"
-        EntrToolStripMenuItem.Size = New Size(217, 30)
-        EntrToolStripMenuItem.Text = "&Entreprise"
+        mnuOrdinateur.Name = "mnuOrdinateur"
+        mnuOrdinateur.Size = New Size(177, 30)
+        mnuOrdinateur.Text = "&Ordinateur"
+        ' 
+        ' mnuModem
+        ' 
+        mnuModem.Name = "mnuModem"
+        mnuModem.Size = New Size(177, 30)
+        mnuModem.Text = "&Modem"
+        ' 
+        ' mnuModemInstall
+        ' 
+        mnuModemInstall.Name = "mnuModemInstall"
+        mnuModemInstall.Size = New Size(180, 30)
+        mnuModemInstall.Text = "Modem"
+        ' 
+        ' mnuServeurInstall
+        ' 
+        mnuServeurInstall.Name = "mnuServeurInstall"
+        mnuServeurInstall.Size = New Size(180, 30)
+        mnuServeurInstall.Text = "Serveur"
+        ' 
+        ' OrdinateurToolStripMenuItem
+        ' 
+        OrdinateurToolStripMenuItem.Name = "OrdinateurToolStripMenuItem"
+        OrdinateurToolStripMenuItem.Size = New Size(177, 30)
+        OrdinateurToolStripMenuItem.Text = "Ordinateur"
+        ' 
+        ' ModemToolStripMenuItem1
+        ' 
+        ModemToolStripMenuItem1.Name = "ModemToolStripMenuItem1"
+        ModemToolStripMenuItem1.Size = New Size(177, 30)
+        ModemToolStripMenuItem1.Text = "Modem"
+        ' 
+        ' ServeurToolStripMenuItem
+        ' 
+        ServeurToolStripMenuItem.Name = "ServeurToolStripMenuItem"
+        ServeurToolStripMenuItem.Size = New Size(177, 30)
+        ServeurToolStripMenuItem.Text = "Serveur"
+        ' 
+        ' mnuWebPages
+        ' 
+        mnuWebPages.Name = "mnuWebPages"
+        mnuWebPages.Size = New Size(180, 30)
+        mnuWebPages.Text = "&Pages Web"
+        ' 
+        ' TelephoniqueToolStripMenuItem
+        ' 
+        TelephoniqueToolStripMenuItem.Name = "TelephoniqueToolStripMenuItem"
+        TelephoniqueToolStripMenuItem.Size = New Size(198, 30)
+        TelephoniqueToolStripMenuItem.Text = "&Telephonique"
+        ' 
+        ' IchatToolStripMenuItem
+        ' 
+        IchatToolStripMenuItem.Name = "IchatToolStripMenuItem"
+        IchatToolStripMenuItem.Size = New Size(198, 30)
+        IchatToolStripMenuItem.Text = "&Ichat"
+        ' 
+        ' mnuRapport
+        ' 
+        mnuRapport.Name = "mnuRapport"
+        mnuRapport.Size = New Size(182, 30)
+        mnuRapport.Text = "Rapports"
+        ' 
+        ' mnuStats
+        ' 
+        mnuStats.Name = "mnuStats"
+        mnuStats.Size = New Size(182, 30)
+        mnuStats.Text = "Statistiques"
+        ' 
+        ' mnuPersonnel
+        ' 
+        mnuPersonnel.Name = "mnuPersonnel"
+        mnuPersonnel.Size = New Size(180, 30)
+        mnuPersonnel.Text = "Personnel"
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1143, 750)
+        BackColor = SystemColors.ControlDarkDark
+        ClientSize = New Size(692, 750)
         Controls.Add(MenuStrip1)
         Font = New Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
+        ForeColor = Color.DarkOrchid
         MainMenuStrip = MenuStrip1
         Margin = New Padding(4, 5, 4, 5)
         Name = "Form1"
@@ -293,17 +405,32 @@ Partial Class Form1
     Friend WithEvents ClientToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents KToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents LoginToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents mnuLogin As ToolStripMenuItem
     Friend WithEvents AadministrateurToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ClientToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents LiquidationToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents FinDanneeToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents NouveauClientToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PrixToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ModalitesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents mnuLiquidation As ToolStripMenuItem
+    Friend WithEvents mnuFinAnnee As ToolStripMenuItem
+    Friend WithEvents mnuNewClient As ToolStripMenuItem
+    Friend WithEvents mnuPrix As ToolStripMenuItem
+    Friend WithEvents mnuModalite As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem3 As ToolStripSeparator
-    Friend WithEvents EntrToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents mnuEntreprise As ToolStripMenuItem
+    Friend WithEvents ServiceToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents l As ToolStripMenuItem
+    Friend WithEvents mnuModemInstall As ToolStripMenuItem
+    Friend WithEvents mnuOrdinateur As ToolStripMenuItem
+    Friend WithEvents mnuModem As ToolStripMenuItem
+    Friend WithEvents mnuServeurInstall As ToolStripMenuItem
+    Friend WithEvents OrdinateurToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ModemToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ServeurToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents mnuWebPages As ToolStripMenuItem
+    Friend WithEvents TelephoniqueToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents IchatToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents mnuRapport As ToolStripMenuItem
+    Friend WithEvents mnuStats As ToolStripMenuItem
+    Friend WithEvents mnuPersonnel As ToolStripMenuItem
 
 End Class
