@@ -16,7 +16,7 @@ Public Class Form6
                 'clientFichier.WriteLine("Adresse: " & txtbxAdresse.Text)
                 'clientFichier.WriteLine() ' Ajoute une ligne vide pour séparer les enregistrements
 
-                Dim contenu As String = $"{txtbxID.Text},   {txtbxNom.Text},    {txtbxPrenom.Text},     {txtbxTelepnone.Text},      {txtbxEmail.Text},      {txtbxCompagnie.Text},      {txtbxAdresse.Text}"
+                Dim contenu As String = $"{txtbxID.Text},{vbTab}{txtbxNom.Text},{vbTab}{txtbxPrenom.Text},{vbTab}{txtbxTelephone.Text},{vbTab}{txtbxEmail.Text},{vbTab}{txtbxCompagnie.Text},{vbTab}{txtbxAdresse.Text}"
                 clientFichier.WriteLine(contenu)
 
                 MessageBox.Show("Données enregistrées avec succès.", "Succès", MessageBoxButtons.OK, MessageBoxIcon.Information)
@@ -34,13 +34,13 @@ Public Class Form6
 
 
     Private Function ValidateData() As Boolean
-        If txtbxNom.Text = "" Or txtbxPrenom.Text = "" Or txtbxTelepnone.Text = "" Or txtbxEmail.Text = "" Then
+        If txtbxNom.Text = "" Or txtbxPrenom.Text = "" Or txtbxTelephone.Text = "" Or txtbxEmail.Text = "" Then
             MessageBox.Show("Veuillez remplir tous les champs obligatoires.", "Erreur de validation", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Return False
         ElseIf Not IsValidEmail(txtbxEmail.Text) Then
             MessageBox.Show("Le format de l'email est invalide.", "Erreur de validation", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Return False
-        ElseIf Not IsValidPhoneNumber(txtbxTelepnone.Text) Then
+        ElseIf Not IsValidPhoneNumber(txtbxTelephone.Text) Then
             MessageBox.Show("Le format du numéro de téléphone est invalide.", "Erreur de validation", MessageBoxButtons.OK, MessageBoxIcon.Error)
             Return False
         End If
@@ -72,7 +72,7 @@ Public Class Form6
         txtbxID.Clear()
         txtbxNom.Clear()
         txtbxPrenom.Clear()
-        txtbxTelepnone.Clear()
+        txtbxTelephone.Clear()
         txtbxEmail.Clear()
         txtbxCompagnie.Clear()
         txtbxAdresse.Clear()

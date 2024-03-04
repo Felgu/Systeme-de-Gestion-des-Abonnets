@@ -28,7 +28,7 @@ Partial Class Form6
         lblTelephone = New Label()
         txtbxNom = New TextBox()
         txtbxPrenom = New TextBox()
-        txtbxTelepnone = New TextBox()
+        txtbxTelephone = New TextBox()
         txtbxAdresse = New TextBox()
         txtbxID = New TextBox()
         lblID = New Label()
@@ -102,14 +102,14 @@ Partial Class Form6
         txtbxPrenom.TabIndex = 9
         txtbxPrenom.TextAlign = HorizontalAlignment.Center
         ' 
-        ' txtbxTelepnone
+        ' txtbxTelephone
         ' 
-        txtbxTelepnone.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
-        txtbxTelepnone.Location = New Point(227, 216)
-        txtbxTelepnone.Name = "txtbxTelepnone"
-        txtbxTelepnone.Size = New Size(163, 31)
-        txtbxTelepnone.TabIndex = 10
-        txtbxTelepnone.TextAlign = HorizontalAlignment.Center
+        txtbxTelephone.Font = New Font("Microsoft Sans Serif", 15.75F, FontStyle.Bold Or FontStyle.Italic)
+        txtbxTelephone.Location = New Point(227, 216)
+        txtbxTelephone.Name = "txtbxTelephone"
+        txtbxTelephone.Size = New Size(163, 31)
+        txtbxTelephone.TabIndex = 10
+        txtbxTelephone.TextAlign = HorizontalAlignment.Center
         ' 
         ' txtbxAdresse
         ' 
@@ -253,7 +253,7 @@ Partial Class Form6
         Controls.Add(lblID)
         Controls.Add(txtbxID)
         Controls.Add(txtbxAdresse)
-        Controls.Add(txtbxTelepnone)
+        Controls.Add(txtbxTelephone)
         Controls.Add(txtbxPrenom)
         Controls.Add(txtbxNom)
         Controls.Add(lblTelephone)
@@ -272,7 +272,7 @@ Partial Class Form6
     Friend WithEvents lblTelephone As Label
     Friend WithEvents txtbxNom As TextBox
     Friend WithEvents txtbxPrenom As TextBox
-    Friend WithEvents txtbxTelepnone As TextBox
+    Friend WithEvents txtbxTelephone As TextBox
     Friend WithEvents txtbxAdresse As TextBox
     Friend WithEvents txtbxID As TextBox
     Friend WithEvents lblID As Label
