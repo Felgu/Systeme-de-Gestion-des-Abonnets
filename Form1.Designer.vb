@@ -65,8 +65,8 @@ Partial Class Form1
         ToolStripMenuItem2 = New ToolStripMenuItem()
         ToolStripMenuItem1 = New ToolStripMenuItem()
         mnuLogin = New ToolStripMenuItem()
-        AadministrateurToolStripMenuItem = New ToolStripMenuItem()
-        ClientToolStripMenuItem1 = New ToolStripMenuItem()
+        mnuAdmin = New ToolStripMenuItem()
+        mnuClient = New ToolStripMenuItem()
         l = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
@@ -223,25 +223,25 @@ Partial Class Form1
         ' mnuInternet
         ' 
         mnuInternet.Name = "mnuInternet"
-        mnuInternet.Size = New Size(177, 30)
+        mnuInternet.Size = New Size(180, 30)
         mnuInternet.Text = "Internet"
         ' 
         ' mnuServeur
         ' 
         mnuServeur.Name = "mnuServeur"
-        mnuServeur.Size = New Size(177, 30)
+        mnuServeur.Size = New Size(180, 30)
         mnuServeur.Text = "Serveur"
         ' 
         ' mnuOrdinateur
         ' 
         mnuOrdinateur.Name = "mnuOrdinateur"
-        mnuOrdinateur.Size = New Size(177, 30)
+        mnuOrdinateur.Size = New Size(180, 30)
         mnuOrdinateur.Text = "&Ordinateur"
         ' 
         ' mnuModem
         ' 
         mnuModem.Name = "mnuModem"
-        mnuModem.Size = New Size(177, 30)
+        mnuModem.Size = New Size(180, 30)
         mnuModem.Text = "&Modem"
         ' 
         ' mnuConsultation
@@ -254,13 +254,13 @@ Partial Class Form1
         ' mnuPrix
         ' 
         mnuPrix.Name = "mnuPrix"
-        mnuPrix.Size = New Size(169, 30)
+        mnuPrix.Size = New Size(180, 30)
         mnuPrix.Text = "Prix"
         ' 
         ' mnuModalite
         ' 
         mnuModalite.Name = "mnuModalite"
-        mnuModalite.Size = New Size(169, 30)
+        mnuModalite.Size = New Size(180, 30)
         mnuModalite.Text = "Modalites"
         ' 
         ' mnuOffres
@@ -344,23 +344,23 @@ Partial Class Form1
         ' 
         ' mnuLogin
         ' 
-        mnuLogin.DropDownItems.AddRange(New ToolStripItem() {AadministrateurToolStripMenuItem, ClientToolStripMenuItem1, l})
+        mnuLogin.DropDownItems.AddRange(New ToolStripItem() {mnuAdmin, mnuClient, l})
         mnuLogin.ForeColor = Color.DarkSlateBlue
         mnuLogin.Name = "mnuLogin"
         mnuLogin.Size = New Size(71, 29)
         mnuLogin.Text = "&Login"
         ' 
-        ' AadministrateurToolStripMenuItem
+        ' mnuAdmin
         ' 
-        AadministrateurToolStripMenuItem.Name = "AadministrateurToolStripMenuItem"
-        AadministrateurToolStripMenuItem.Size = New Size(213, 30)
-        AadministrateurToolStripMenuItem.Text = "Administrateur"
+        mnuAdmin.Name = "mnuAdmin"
+        mnuAdmin.Size = New Size(213, 30)
+        mnuAdmin.Text = "Administrateur"
         ' 
-        ' ClientToolStripMenuItem1
+        ' mnuClient
         ' 
-        ClientToolStripMenuItem1.Name = "ClientToolStripMenuItem1"
-        ClientToolStripMenuItem1.Size = New Size(213, 30)
-        ClientToolStripMenuItem1.Text = "Client"
+        mnuClient.Name = "mnuClient"
+        mnuClient.Size = New Size(213, 30)
+        mnuClient.Text = "Client"
         ' 
         ' l
         ' 
@@ -406,8 +406,8 @@ Partial Class Form1
     Friend WithEvents KToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents mnuLogin As ToolStripMenuItem
-    Friend WithEvents AadministrateurToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ClientToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents mnuAdmin As ToolStripMenuItem
+    Friend WithEvents mnuClient As ToolStripMenuItem
     Friend WithEvents mnuLiquidation As ToolStripMenuItem
     Friend WithEvents mnuFinAnnee As ToolStripMenuItem
     Friend WithEvents mnuNewClient As ToolStripMenuItem

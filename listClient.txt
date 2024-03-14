@@ -1,0 +1,4 @@
+ID	Nom		Prenom		Phone		Email		Compagnie 	Adresse
+
+1,	Massinissa,	Jugurthen,	890 123 4567,	yugurt@numid.nd,	Idefel,	9 avrid ufala
+78,	jeremy,	b,	78 34,	hkle@jeol.cj,	hkljdf,	lkjfdsklj

@@ -1,12 +1,15 @@
 ﻿Public Class Form1
 
-    Private Sub AadministrateurToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AadministrateurToolStripMenuItem.Click
+    Private Sub mnuAdmin_Click(sender As Object, e As EventArgs) Handles mnuAdmin.Click
         Form2.Show()
 
     End Sub
 
-    Private Sub ClientToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ClientToolStripMenuItem1.Click
+    Private Sub mnuClient_Click(sender As Object, e As EventArgs) Handles mnuClient.Click
         Form5.Show()
     End Sub
 
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
