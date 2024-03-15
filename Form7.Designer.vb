@@ -52,7 +52,7 @@ Partial Class Form7
         lblContrat.Location = New Point(188, 29)
         lblContrat.Name = "lblContrat"
         lblContrat.Size = New Size(162, 25)
-        lblContrat.TabIndex = 0
+        lblContrat.TabIndex = 20
         lblContrat.Text = "Nouveau Contrat"
         ' 
         ' lblNom
@@ -62,7 +62,7 @@ Partial Class Form7
         lblNom.Location = New Point(27, 137)
         lblNom.Name = "lblNom"
         lblNom.Size = New Size(55, 25)
-        lblNom.TabIndex = 13
+        lblNom.TabIndex = 1
         lblNom.Text = "Nom"
         ' 
         ' lblPrenom
@@ -72,7 +72,7 @@ Partial Class Form7
         lblPrenom.Location = New Point(27, 172)
         lblPrenom.Name = "lblPrenom"
         lblPrenom.Size = New Size(79, 25)
-        lblPrenom.TabIndex = 14
+        lblPrenom.TabIndex = 2
         lblPrenom.Text = "Prenom"
         ' 
         ' lblTelephone
@@ -82,7 +82,7 @@ Partial Class Form7
         lblTelephone.Location = New Point(27, 210)
         lblTelephone.Name = "lblTelephone"
         lblTelephone.Size = New Size(102, 25)
-        lblTelephone.TabIndex = 15
+        lblTelephone.TabIndex = 3
         lblTelephone.Text = "Telephone"
         ' 
         ' lblEmail
@@ -92,7 +92,7 @@ Partial Class Form7
         lblEmail.Location = New Point(27, 255)
         lblEmail.Name = "lblEmail"
         lblEmail.Size = New Size(60, 25)
-        lblEmail.TabIndex = 16
+        lblEmail.TabIndex = 4
         lblEmail.Text = "Email"
         ' 
         ' lblAdresse
@@ -102,7 +102,7 @@ Partial Class Form7
         lblAdresse.Location = New Point(22, 289)
         lblAdresse.Name = "lblAdresse"
         lblAdresse.Size = New Size(79, 25)
-        lblAdresse.TabIndex = 17
+        lblAdresse.TabIndex = 5
         lblAdresse.Text = "Adresse"
         ' 
         ' txtbxDate
@@ -111,7 +111,7 @@ Partial Class Form7
         txtbxDate.Location = New Point(214, 422)
         txtbxDate.Name = "txtbxDate"
         txtbxDate.Size = New Size(93, 33)
-        txtbxDate.TabIndex = 7
+        txtbxDate.TabIndex = 14
         ' 
         ' txtbxNom
         ' 
@@ -119,7 +119,7 @@ Partial Class Form7
         txtbxNom.Location = New Point(214, 130)
         txtbxNom.Name = "txtbxNom"
         txtbxNom.Size = New Size(216, 33)
-        txtbxNom.TabIndex = 2
+        txtbxNom.TabIndex = 9
         ' 
         ' txtbxPrenom
         ' 
@@ -127,7 +127,7 @@ Partial Class Form7
         txtbxPrenom.Location = New Point(214, 169)
         txtbxPrenom.Name = "txtbxPrenom"
         txtbxPrenom.Size = New Size(216, 33)
-        txtbxPrenom.TabIndex = 3
+        txtbxPrenom.TabIndex = 10
         ' 
         ' txtbxTelephone
         ' 
@@ -135,7 +135,7 @@ Partial Class Form7
         txtbxTelephone.Location = New Point(214, 210)
         txtbxTelephone.Name = "txtbxTelephone"
         txtbxTelephone.Size = New Size(216, 33)
-        txtbxTelephone.TabIndex = 4
+        txtbxTelephone.TabIndex = 11
         ' 
         ' txtbxEmail
         ' 
@@ -143,7 +143,7 @@ Partial Class Form7
         txtbxEmail.Location = New Point(214, 252)
         txtbxEmail.Name = "txtbxEmail"
         txtbxEmail.Size = New Size(216, 33)
-        txtbxEmail.TabIndex = 5
+        txtbxEmail.TabIndex = 12
         ' 
         ' txtbxAdresse
         ' 
@@ -152,7 +152,7 @@ Partial Class Form7
         txtbxAdresse.Multiline = True
         txtbxAdresse.Name = "txtbxAdresse"
         txtbxAdresse.Size = New Size(217, 107)
-        txtbxAdresse.TabIndex = 6
+        txtbxAdresse.TabIndex = 13
         ' 
         ' lblDateDebut
         ' 
@@ -161,7 +161,7 @@ Partial Class Form7
         lblDateDebut.Location = New Point(27, 428)
         lblDateDebut.Name = "lblDateDebut"
         lblDateDebut.Size = New Size(112, 25)
-        lblDateDebut.TabIndex = 18
+        lblDateDebut.TabIndex = 6
         lblDateDebut.Text = "Date Debut"
         ' 
         ' lblPeriode
@@ -171,7 +171,7 @@ Partial Class Form7
         lblPeriode.Location = New Point(27, 476)
         lblPeriode.Name = "lblPeriode"
         lblPeriode.Size = New Size(77, 25)
-        lblPeriode.TabIndex = 19
+        lblPeriode.TabIndex = 7
         lblPeriode.Text = "Periode"
         ' 
         ' btnSave
@@ -180,7 +180,7 @@ Partial Class Form7
         btnSave.Location = New Point(214, 541)
         btnSave.Name = "btnSave"
         btnSave.Size = New Size(81, 38)
-        btnSave.TabIndex = 10
+        btnSave.TabIndex = 17
         btnSave.Text = "Save"
         btnSave.UseVisualStyleBackColor = True
         ' 
@@ -190,7 +190,7 @@ Partial Class Form7
         btnClear.Location = New Point(301, 541)
         btnClear.Name = "btnClear"
         btnClear.Size = New Size(77, 38)
-        btnClear.TabIndex = 11
+        btnClear.TabIndex = 18
         btnClear.Text = "Clear"
         btnClear.UseVisualStyleBackColor = True
         ' 
@@ -200,7 +200,7 @@ Partial Class Form7
         btnExit.Location = New Point(384, 541)
         btnExit.Name = "btnExit"
         btnExit.Size = New Size(75, 38)
-        btnExit.TabIndex = 12
+        btnExit.TabIndex = 19
         btnExit.Text = "Exit"
         btnExit.UseVisualStyleBackColor = True
         ' 
@@ -211,7 +211,7 @@ Partial Class Form7
         lblID.Location = New Point(30, 93)
         lblID.Name = "lblID"
         lblID.Size = New Size(150, 25)
-        lblID.TabIndex = 20
+        lblID.TabIndex = 0
         lblID.Text = "Numero contrat"
         ' 
         ' txtbxID
@@ -220,7 +220,7 @@ Partial Class Form7
         txtbxID.Location = New Point(213, 87)
         txtbxID.Name = "txtbxID"
         txtbxID.Size = New Size(217, 33)
-        txtbxID.TabIndex = 1
+        txtbxID.TabIndex = 8
         ' 
         ' chkbxAnnee
         ' 
@@ -229,7 +229,7 @@ Partial Class Form7
         chkbxAnnee.Location = New Point(214, 476)
         chkbxAnnee.Name = "chkbxAnnee"
         chkbxAnnee.Size = New Size(107, 29)
-        chkbxAnnee.TabIndex = 8
+        chkbxAnnee.TabIndex = 15
         chkbxAnnee.Text = "1 ANNEE"
         chkbxAnnee.UseVisualStyleBackColor = True
         ' 
@@ -240,7 +240,7 @@ Partial Class Form7
         chkbx2Ans.Location = New Point(352, 476)
         chkbx2Ans.Name = "chkbx2Ans"
         chkbx2Ans.Size = New Size(120, 29)
-        chkbx2Ans.TabIndex = 9
+        chkbx2Ans.TabIndex = 16
         chkbx2Ans.Text = "2 ANNEES"
         chkbx2Ans.UseVisualStyleBackColor = True
         ' 

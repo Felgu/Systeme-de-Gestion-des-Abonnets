@@ -62,7 +62,7 @@ Partial Class Form2
         btnLogin.Location = New Point(276, 280)
         btnLogin.Name = "btnLogin"
         btnLogin.Size = New Size(106, 51)
-        btnLogin.TabIndex = 2
+        btnLogin.TabIndex = 4
         btnLogin.Text = "Login"
         btnLogin.UseVisualStyleBackColor = False
         ' 
@@ -73,7 +73,7 @@ Partial Class Form2
         btnExit.Location = New Point(405, 280)
         btnExit.Name = "btnExit"
         btnExit.Size = New Size(106, 51)
-        btnExit.TabIndex = 3
+        btnExit.TabIndex = 5
         btnExit.Text = "Exit"
         btnExit.UseVisualStyleBackColor = False
         ' 
@@ -84,7 +84,7 @@ Partial Class Form2
         txtbxUsername.Location = New Point(276, 135)
         txtbxUsername.Name = "txtbxUsername"
         txtbxUsername.Size = New Size(235, 29)
-        txtbxUsername.TabIndex = 4
+        txtbxUsername.TabIndex = 2
         ' 
         ' txtbxPassword
         ' 
@@ -94,7 +94,7 @@ Partial Class Form2
         txtbxPassword.Location = New Point(276, 209)
         txtbxPassword.Name = "txtbxPassword"
         txtbxPassword.Size = New Size(235, 29)
-        txtbxPassword.TabIndex = 5
+        txtbxPassword.TabIndex = 3
         ' 
         ' lblAdmin
         ' 
@@ -103,7 +103,7 @@ Partial Class Form2
         lblAdmin.Location = New Point(294, 28)
         lblAdmin.Name = "lblAdmin"
         lblAdmin.Size = New Size(156, 30)
-        lblAdmin.TabIndex = 6
+        lblAdmin.TabIndex = 8
         lblAdmin.Text = "Administrateur"
         ' 
         ' lblErrAdmin
@@ -113,7 +113,7 @@ Partial Class Form2
         lblErrAdmin.Location = New Point(73, 354)
         lblErrAdmin.Name = "lblErrAdmin"
         lblErrAdmin.Size = New Size(20, 32)
-        lblErrAdmin.TabIndex = 7
+        lblErrAdmin.TabIndex = 6
         lblErrAdmin.Text = "."
         lblErrAdmin.Visible = False
         ' 
@@ -124,7 +124,7 @@ Partial Class Form2
         lblAvertAdmin.Location = New Point(73, 386)
         lblAvertAdmin.Name = "lblAvertAdmin"
         lblAvertAdmin.Size = New Size(20, 32)
-        lblAvertAdmin.TabIndex = 8
+        lblAvertAdmin.TabIndex = 7
         lblAvertAdmin.Text = "."
         ' 
         ' Form2

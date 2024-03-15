@@ -39,7 +39,7 @@ Partial Class Form5
         btnLogin.Location = New Point(85, 219)
         btnLogin.Name = "btnLogin"
         btnLogin.Size = New Size(169, 65)
-        btnLogin.TabIndex = 0
+        btnLogin.TabIndex = 4
         btnLogin.Text = "Login"
         btnLogin.UseVisualStyleBackColor = True
         ' 
@@ -49,7 +49,7 @@ Partial Class Form5
         btnExit.Location = New Point(311, 219)
         btnExit.Name = "btnExit"
         btnExit.Size = New Size(165, 65)
-        btnExit.TabIndex = 1
+        btnExit.TabIndex = 6
         btnExit.Text = "Exit"
         btnExit.UseVisualStyleBackColor = True
         ' 
@@ -60,7 +60,7 @@ Partial Class Form5
         lblUsername.Location = New Point(26, 69)
         lblUsername.Name = "lblUsername"
         lblUsername.Size = New Size(109, 30)
-        lblUsername.TabIndex = 2
+        lblUsername.TabIndex = 0
         lblUsername.Text = "Username"
         ' 
         ' lblPassword
@@ -70,7 +70,7 @@ Partial Class Form5
         lblPassword.Location = New Point(26, 126)
         lblPassword.Name = "lblPassword"
         lblPassword.Size = New Size(103, 30)
-        lblPassword.TabIndex = 3
+        lblPassword.TabIndex = 1
         lblPassword.Text = "Password"
         ' 
         ' txtbxUsername
@@ -79,7 +79,7 @@ Partial Class Form5
         txtbxUsername.Location = New Point(187, 69)
         txtbxUsername.Name = "txtbxUsername"
         txtbxUsername.Size = New Size(289, 35)
-        txtbxUsername.TabIndex = 4
+        txtbxUsername.TabIndex = 2
         ' 
         ' txtbxPassword
         ' 
@@ -87,7 +87,7 @@ Partial Class Form5
         txtbxPassword.Location = New Point(187, 121)
         txtbxPassword.Name = "txtbxPassword"
         txtbxPassword.Size = New Size(289, 35)
-        txtbxPassword.TabIndex = 5
+        txtbxPassword.TabIndex = 3
         ' 
         ' lblclient
         ' 
@@ -96,7 +96,7 @@ Partial Class Form5
         lblclient.Location = New Point(244, 9)
         lblclient.Name = "lblclient"
         lblclient.Size = New Size(67, 30)
-        lblclient.TabIndex = 6
+        lblclient.TabIndex = 7
         lblclient.Text = "Client"
         ' 
         ' lblMsgErr

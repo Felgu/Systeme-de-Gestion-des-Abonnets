@@ -71,7 +71,7 @@ Partial Class Form6
         lblAdresse.Location = New Point(37, 348)
         lblAdresse.Name = "lblAdresse"
         lblAdresse.Size = New Size(98, 25)
-        lblAdresse.TabIndex = 4
+        lblAdresse.TabIndex = 6
         lblAdresse.Text = "Adresse"
         ' 
         ' lblTelephone
@@ -118,7 +118,7 @@ Partial Class Form6
         txtbxAdresse.Multiline = True
         txtbxAdresse.Name = "txtbxAdresse"
         txtbxAdresse.Size = New Size(163, 79)
-        txtbxAdresse.TabIndex = 17
+        txtbxAdresse.TabIndex = 13
         txtbxAdresse.TextAlign = HorizontalAlignment.Center
         ' 
         ' txtbxID
@@ -146,7 +146,7 @@ Partial Class Form6
         lblNewClient.Location = New Point(144, 22)
         lblNewClient.Name = "lblNewClient"
         lblNewClient.Size = New Size(169, 25)
-        lblNewClient.TabIndex = 10
+        lblNewClient.TabIndex = 17
         lblNewClient.Text = "Nouveau client"
         ' 
         ' btnSave
@@ -155,17 +155,17 @@ Partial Class Form6
         btnSave.Location = New Point(119, 462)
         btnSave.Name = "btnSave"
         btnSave.Size = New Size(79, 34)
-        btnSave.TabIndex = 5
+        btnSave.TabIndex = 14
         btnSave.Text = "Save"
         btnSave.UseVisualStyleBackColor = True
         ' 
         ' btnSupprimer
         ' 
         btnSupprimer.Font = New Font("Californian FB", 15.75F, FontStyle.Bold Or FontStyle.Italic)
-        btnSupprimer.Location = New Point(323, 462)
+        btnSupprimer.Location = New Point(227, 462)
         btnSupprimer.Name = "btnSupprimer"
         btnSupprimer.Size = New Size(67, 34)
-        btnSupprimer.TabIndex = 6
+        btnSupprimer.TabIndex = 15
         btnSupprimer.Text = "Clear"
         btnSupprimer.UseVisualStyleBackColor = True
         ' 
@@ -196,7 +196,7 @@ Partial Class Form6
         lblEmail.Location = New Point(37, 267)
         lblEmail.Name = "lblEmail"
         lblEmail.Size = New Size(173, 25)
-        lblEmail.TabIndex = 14
+        lblEmail.TabIndex = 4
         lblEmail.Text = "Business Email"
         ' 
         ' lblCompagnieNom
@@ -206,7 +206,7 @@ Partial Class Form6
         lblCompagnieNom.Location = New Point(37, 304)
         lblCompagnieNom.Name = "lblCompagnieNom"
         lblCompagnieNom.Size = New Size(184, 25)
-        lblCompagnieNom.TabIndex = 15
+        lblCompagnieNom.TabIndex = 5
         lblCompagnieNom.Text = "Nom Compagnie"
         ' 
         ' txtbxEmail
@@ -223,15 +223,15 @@ Partial Class Form6
         txtbxCompagnie.Location = New Point(227, 306)
         txtbxCompagnie.Name = "txtbxCompagnie"
         txtbxCompagnie.Size = New Size(163, 31)
-        txtbxCompagnie.TabIndex = 16
+        txtbxCompagnie.TabIndex = 12
         ' 
         ' btnExit
         ' 
         btnExit.Font = New Font("Californian FB", 15.75F, FontStyle.Bold Or FontStyle.Italic, GraphicsUnit.Point, CByte(0))
-        btnExit.Location = New Point(227, 462)
+        btnExit.Location = New Point(315, 462)
         btnExit.Name = "btnExit"
         btnExit.Size = New Size(75, 34)
-        btnExit.TabIndex = 18
+        btnExit.TabIndex = 16
         btnExit.Text = "Exit"
         btnExit.UseVisualStyleBackColor = True
         ' 
