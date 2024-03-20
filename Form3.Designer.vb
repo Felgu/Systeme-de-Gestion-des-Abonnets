@@ -39,6 +39,7 @@ Partial Class Form3
         ClientToolStripMenuItem = New ToolStripMenuItem()
         EntrepriseToolStripMenuItem = New ToolStripMenuItem()
         AnnuelToolStripMenuItem = New ToolStripMenuItem()
+        mnuListeClients = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -55,7 +56,7 @@ Partial Class Form3
         ' 
         ' ClientsToolStripMenuItem
         ' 
-        ClientsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {NouveauToolStripMenuItem, ModifierToolStripMenuItem, ToolStripMenuItem2})
+        ClientsToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {NouveauToolStripMenuItem, ModifierToolStripMenuItem, ToolStripMenuItem2, mnuListeClients})
         ClientsToolStripMenuItem.Name = "ClientsToolStripMenuItem"
         ClientsToolStripMenuItem.Size = New Size(88, 34)
         ClientsToolStripMenuItem.Text = "&Clients"
@@ -63,19 +64,19 @@ Partial Class Form3
         ' NouveauToolStripMenuItem
         ' 
         NouveauToolStripMenuItem.Name = "NouveauToolStripMenuItem"
-        NouveauToolStripMenuItem.Size = New Size(186, 34)
+        NouveauToolStripMenuItem.Size = New Size(234, 34)
         NouveauToolStripMenuItem.Text = "&Nouveau"
         ' 
         ' ModifierToolStripMenuItem
         ' 
         ModifierToolStripMenuItem.Name = "ModifierToolStripMenuItem"
-        ModifierToolStripMenuItem.Size = New Size(186, 34)
+        ModifierToolStripMenuItem.Size = New Size(234, 34)
         ModifierToolStripMenuItem.Text = "&Modifier"
         ' 
         ' ToolStripMenuItem2
         ' 
         ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        ToolStripMenuItem2.Size = New Size(186, 34)
+        ToolStripMenuItem2.Size = New Size(234, 34)
         ToolStripMenuItem2.Text = "&Supprimer"
         ' 
         ' mnuContrat
@@ -113,19 +114,19 @@ Partial Class Form3
         ' LocationToolStripMenuItem
         ' 
         LocationToolStripMenuItem.Name = "LocationToolStripMenuItem"
-        LocationToolStripMenuItem.Size = New Size(180, 34)
+        LocationToolStripMenuItem.Size = New Size(168, 34)
         LocationToolStripMenuItem.Text = "Location"
         ' 
         ' AchatToolStripMenuItem
         ' 
         AchatToolStripMenuItem.Name = "AchatToolStripMenuItem"
-        AchatToolStripMenuItem.Size = New Size(180, 34)
+        AchatToolStripMenuItem.Size = New Size(168, 34)
         AchatToolStripMenuItem.Text = "Achat"
         ' 
         ' ImpotToolStripMenuItem
         ' 
         ImpotToolStripMenuItem.Name = "ImpotToolStripMenuItem"
-        ImpotToolStripMenuItem.Size = New Size(180, 34)
+        ImpotToolStripMenuItem.Size = New Size(168, 34)
         ImpotToolStripMenuItem.Text = "Impot"
         ' 
         ' RapportToolStripMenuItem
@@ -138,7 +139,7 @@ Partial Class Form3
         ' ClientToolStripMenuItem
         ' 
         ClientToolStripMenuItem.Name = "ClientToolStripMenuItem"
-        ClientToolStripMenuItem.Size = New Size(180, 34)
+        ClientToolStripMenuItem.Size = New Size(182, 34)
         ClientToolStripMenuItem.Text = "Client"
         ' 
         ' EntrepriseToolStripMenuItem
@@ -152,6 +153,12 @@ Partial Class Form3
         AnnuelToolStripMenuItem.Name = "AnnuelToolStripMenuItem"
         AnnuelToolStripMenuItem.Size = New Size(182, 34)
         AnnuelToolStripMenuItem.Text = "Annuel"
+        ' 
+        ' mnuListeClients
+        ' 
+        mnuListeClients.Name = "mnuListeClients"
+        mnuListeClients.Size = New Size(234, 34)
+        mnuListeClients.Text = "Liste des clients"
         ' 
         ' Form3
         ' 
@@ -185,4 +192,5 @@ Partial Class Form3
     Friend WithEvents ClientToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents EntrepriseToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AnnuelToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents mnuListeClients As ToolStripMenuItem
 End Class

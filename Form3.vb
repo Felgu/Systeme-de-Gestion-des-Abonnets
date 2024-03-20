@@ -12,4 +12,8 @@
         Form7.Show()
 
     End Sub
+
+    Private Sub mnuListeClients_Click(sender As Object, e As EventArgs) Handles mnuListeClients.Click
+        Form8.Show()
+    End Sub
 End Class

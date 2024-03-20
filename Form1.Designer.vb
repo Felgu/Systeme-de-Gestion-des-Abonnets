@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         MenuStrip1 = New MenuStrip()
         mnuService = New ToolStripMenuItem()
         mnuInstallation = New ToolStripMenuItem()
@@ -79,7 +80,7 @@ Partial Class Form1
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
         MenuStrip1.Padding = New Padding(9, 3, 0, 3)
-        MenuStrip1.Size = New Size(692, 35)
+        MenuStrip1.Size = New Size(823, 35)
         MenuStrip1.TabIndex = 0
         MenuStrip1.Text = "MenuStrip1"
         ' 
@@ -223,25 +224,25 @@ Partial Class Form1
         ' mnuInternet
         ' 
         mnuInternet.Name = "mnuInternet"
-        mnuInternet.Size = New Size(180, 30)
+        mnuInternet.Size = New Size(177, 30)
         mnuInternet.Text = "Internet"
         ' 
         ' mnuServeur
         ' 
         mnuServeur.Name = "mnuServeur"
-        mnuServeur.Size = New Size(180, 30)
+        mnuServeur.Size = New Size(177, 30)
         mnuServeur.Text = "Serveur"
         ' 
         ' mnuOrdinateur
         ' 
         mnuOrdinateur.Name = "mnuOrdinateur"
-        mnuOrdinateur.Size = New Size(180, 30)
+        mnuOrdinateur.Size = New Size(177, 30)
         mnuOrdinateur.Text = "&Ordinateur"
         ' 
         ' mnuModem
         ' 
         mnuModem.Name = "mnuModem"
-        mnuModem.Size = New Size(180, 30)
+        mnuModem.Size = New Size(177, 30)
         mnuModem.Text = "&Modem"
         ' 
         ' mnuConsultation
@@ -254,13 +255,13 @@ Partial Class Form1
         ' mnuPrix
         ' 
         mnuPrix.Name = "mnuPrix"
-        mnuPrix.Size = New Size(180, 30)
+        mnuPrix.Size = New Size(169, 30)
         mnuPrix.Text = "Prix"
         ' 
         ' mnuModalite
         ' 
         mnuModalite.Name = "mnuModalite"
-        mnuModalite.Size = New Size(180, 30)
+        mnuModalite.Size = New Size(169, 30)
         mnuModalite.Text = "Modalites"
         ' 
         ' mnuOffres
@@ -372,7 +373,8 @@ Partial Class Form1
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = SystemColors.ControlDarkDark
-        ClientSize = New Size(692, 597)
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
+        ClientSize = New Size(823, 597)
         Controls.Add(MenuStrip1)
         Font = New Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point, CByte(0))
         ForeColor = Color.DarkOrchid
